@@ -176,7 +176,8 @@
       <div class="hero__copy">
         <p class="hero__eyebrow">PRONINE — российский бренд оборудования для падела</p>
         <h1 class="hero__title" id="hero-title">Ракетка под&nbsp;ваш характер игры</h1>
-        <p class="hero__lead">Четыре модели — от мягкой круглой Nine для первых тренировок до атакующей Solar с настраиваемым балансом. А также мячи, аксессуары и форма.</p>
+        <!-- Один абзац, два варианта: скрытый через display: none вариант не попадает в дерево доступности -->
+        <p class="hero__lead"><span class="hero__lead-full">Четыре модели — от мягкой круглой Nine для первых тренировок до атакующей Solar с настраиваемым балансом. А также мячи, аксессуары и форма.</span><span class="hero__lead-short">Четыре модели под ваш стиль игры. Ракетки, мячи, аксессуары и форма PRONINE.</span></p>
         <div class="hero__actions">
           <a class="btn btn--light btn--lg" href="#models">Выбрать ракетку <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
           <a class="btn btn--line-light btn--lg" href="#picker">Помощь с выбором</a>
@@ -655,7 +656,7 @@
 
     <div class="footer-bottom">
       <p>© 2026 PRONINE</p>
-      <p>Демонстрационная версия главной страницы. Внутренние разделы откроются в полной версии магазина.</p>
+      <p>Демонстрационная версия главной страницы</p>
     </div>
   </div>
 </footer>
